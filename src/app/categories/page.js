@@ -1,10 +1,6 @@
 import React from "react"
 import Card from "@/components/Card"
 
-export const metadata = {
-    title: 'Category',
-    description: 'Here is list all category'
-}
 
 export async function getCategories() {
     const res = await fetch("https://api.escuelajs.co/api/v1/categories", { cache: "no-store" })
