@@ -27,7 +27,6 @@ export default async function DetailAbuotUser({params}){
         
         <h1>Product Detail: {user.name}</h1>
         <img src={user.images} alt={user.name}/>
-
         </>
     )
 }
