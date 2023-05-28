@@ -1,5 +1,6 @@
+import Card from "@/components/Card";
 import React from "react"
-import Card from "@/components/Card"
+
 
 export async function fetchUser() {
     const res = await fetch("https://api.escuelajs.co/api/v1/users?limit=8&offset=1", { cache: "no-store" })

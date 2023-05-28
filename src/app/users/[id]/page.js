@@ -1,4 +1,4 @@
-export async function fetchUser(id){
+ async function fetchUser(id){
     const res = await fetch(`https://api.escuelajs.co/api/v1/users/${id}`)
     return res.json()
 }
