@@ -1,4 +1,4 @@
-import Product from '@/app/products/page';
+
 import React from 'react';
 
 const Homepage = () => {

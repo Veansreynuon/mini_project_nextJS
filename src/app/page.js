@@ -1,4 +1,4 @@
-"use client"
+
 import Homepage from '@/components/homepage'
 import Product from './products/page'
 import Category from './categories/page'
